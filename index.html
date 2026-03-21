@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hein Htet Zaw | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Hein Htet Zaw</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <p class="intro-text">Hi, I'm</p>
+                <h1 class="name">Hein Htet Zaw</h1>
+                <h2 class="title">Aspiring Frontend and Backend Developer</h2>
+                <p>
+                    Building real-world applications with Python and modern web technologies
+                    while preparing for a career in IT in Japan.
+                </p>
+
+                <div class="hero-buttons">
+                    <div class="dropdown">
+                        <button class="btn-outline dropdown-btn">Download CV ▾</button>
+                        <div class="dropdown-menu">
+                            <a href="images/cv-eng.pdf" target="_blank">English CV</a>
+                            <a href="images/cv-jp.pdf" target="_blank">履歴書 (Japanese)</a>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/profile.png" alt="Hein Htet Zaw">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            System Engineering student based in Japan with a strong foundation in computer science
+            and experience in Python, Java, and web development.
+        </p>
+        <p>
+            Enjoys building practical applications and improving skills through hands-on projects.
+            Experience in programming education and customer-facing roles has developed strong
+            communication, adaptability, and attention to detail.
+        </p>
+        <p>
+            Focused on growing into a full-stack developer, building clean and scalable systems
+            for real-world use.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">MySQL</div>
+            <div class="skill-card">VSCode</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i data-lucide="coins"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Expense Tracker</h3>
+                    <p>
+                        A Python application to record daily expenses and help manage personal
+                        budgets in a simple way.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/heinhtetzaw-mm/expense-tracker" target="_blank" class="project-btn">
+                            <i data-lucide="github"></i> GitHub
+                        </a>
+
+                        <a href="https://expense-tracker-s0tb.onrender.com" target="_blank" class="project-btn primary">
+                            <i data-lucide="external-link"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i data-lucide="calculator"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Calculator</h3>
+                    <p>
+                        A clean calculator built with HTML, CSS, and JavaScript to practice
+                        layout, styling, and logic.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/heinhtetzaw-mm/calculator.git" target="_blank" class="project-btn">
+                            <i data-lucide="github"></i> GitHub
+                        </a>
+
+                        <a href="https://heinhtetzaw-mm.github.io/Calculator/" target="_blank"
+                            class="project-btn primary">
+                            <i data-lucide="external-link"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i data-lucide="gauge"></i>
+                </div>
+                <div class="project-content">
+                    <h3>F1 Hub</h3>
+                    <p>
+                        A website focused on Formula 1 content such as drivers, teams, and races,
+                        built to practice dynamic interfaces and front-end development.
+                    </p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/heinhtetzaw-mm/F1-Hub" target="_blank" class="project-btn">
+                            <i data-lucide="github"></i> GitHub
+                        </a>
+
+                        <a href="https://heinhtetzaw-mm.github.io/F1-Hub/" target="_blank" class="project-btn primary">
+                            <i data-lucide="external-link"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+            <a href="mailto:heinlay2442000@gmail.com" class="contact-card">
+                <div class="contact-icon-circle">
+                    <i data-lucide="mail"></i>
+                </div>
+                <h3>Email</h3>
+                <p>heinlay2442000@gmail.com</p>
+            </a>
+
+            <a href="https://linkedin.com/in/heinhtetzaw-mm" class="contact-card" target="_blank">
+                <div class="contact-icon-circle">
+                    <i data-lucide="linkedin"></i>
+                </div>
+                <h3>Linkedin</h3>
+                <p>Hein Htet Zaw</p>
+            </a>
+
+            <a href="https://github.com/heinhtetzaw-mm" class="contact-card" target="_blank">
+                <div class="contact-icon-circle">
+                    <i data-lucide="github"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p>github.com/heinhtetzaw-mm</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Hein Htet Zaw</p>
+    </footer>
+
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-links a[href^='#']");
+        const internalLinks = document.querySelectorAll('a[href^="#"]');
+
+        internalLinks.forEach(link => {
+            link.addEventListener("click", function (e) {
+                const target = document.querySelector(this.getAttribute("href"));
+
+                if (!target) return;
+
+                e.preventDefault();
+
+                const start = window.pageYOffset;
+                const end = target.offsetTop - 60;
+                const distance = end - start;
+                const duration = 700;
+
+                let startTime = null;
+
+                function ease(t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                }
+
+                function animation(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const run = ease(timeElapsed, start, distance, duration);
+                    window.scrollTo(0, run);
+
+                    if (timeElapsed < duration) {
+                        requestAnimationFrame(animation);
+                    }
+                }
+
+                requestAnimationFrame(animation);
+            });
+        });
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+
+            const scrollPosition = window.scrollY + 200;
+            const pageBottom =
+                window.innerHeight + window.scrollY >= document.body.offsetHeight - 2;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+
+                if (
+                    scrollPosition >= sectionTop &&
+                    scrollPosition < sectionTop + sectionHeight
+                ) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            if (pageBottom) {
+                current = "contact";
+            }
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.classList.add("active");
+                }
+            });
+        });
+
+        window.addEventListener("load", () => {
+            window.scrollTo(0, 0);
+        });
+
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
